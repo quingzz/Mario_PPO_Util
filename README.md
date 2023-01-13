@@ -1,7 +1,7 @@
 ## Mario PPO Training Util
 provide a simplified interface to train Super Mario Bros (NES). Mainly for my own
 use later on but you are welcome to use it =))
-
+---
 ### Tested packages version
 | Packages             | Version |
 |----------------------|---------|
@@ -11,6 +11,8 @@ use later on but you are welcome to use it =))
 | gym-super-mario-bros | 7.4.0   | 
 Packages tested on python 3.9
 
+---
+
 ### Set up
 * Create a conda environment (I use miniforge in this case):  https://github.com/conda-forge/miniforge  
 * Install pytorch via conda: https://pytorch.org
@@ -18,6 +20,8 @@ Packages tested on python 3.9
 ```commandline
 pip install -r requirements.txt
 ```
+
+----
 
 ### About the project
 Two main files in the project are:
@@ -31,6 +35,8 @@ The folder `trained_models` contain several models that trained with some differ
 
 ### Important note
 If you want to upload your trained model to the repo, remember to `.gitignore` other files/folders except `train_models`
+
+----
 
 ### About TrainMarioUtil 
 A documentation (kinna) to use the provided tool
@@ -78,6 +84,8 @@ The saved model after continue training will be saved with `_CONT` suffix
 run_model()
 ```
 Run the model `model_name` in init
+
+---
 
 ### Some other important documentations
 * Stable baselines 3 documentation for PPO: https://stable-baselines3.readthedocs.io/en/master/modules/ppo.html
